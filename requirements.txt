@@ -51,7 +51,6 @@ sklearn==0.0
 statsmodels==0.12.2
 tables==3.6.1
 tablib==3.2.1
-TBB==0.2
 tensorboard==2.8.0
 tensorboard-data-server==0.6.1
 tensorboard-plugin-wit==1.8.1
@@ -63,5 +62,4 @@ textract==1.6.5
 tf-estimator-nightly==2.8.0.dev2021122109
 tika==1.24
 to-requirements.txt==1.1.8
-
 spacy==3.3.0
