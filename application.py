@@ -4,7 +4,7 @@
 # pip install docx2txt
 #pip install fuzzywuzzy
 import nltk
-# nltk.download('punkt')
+nltk.download('punkt')
 #spacy
 import spacy
 # from spacy.pipeline import EntityRuler
@@ -32,7 +32,7 @@ import re
 import nltk
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
-# nltk.download(['stopwords','wordnet'])
+nltk.download(['stopwords','wordnet'])
 
 #warning
 import warnings 
@@ -181,4 +181,4 @@ def read_resume(urls, skills):
     
 
 if __name__ == '__main__':
-    app.run(port=11000)
+    app.run(port=5000)
