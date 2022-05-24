@@ -60,10 +60,10 @@ def best_Match_resume(data, skills_list):
         ruler.from_disk(r"C:\Users\WaseemAhmad\extraViz\spacy\azureFlaskApi\jz_skill_patterns.jsonl") 
         skills=[]
         phone=[]
-        Loc=[]
-        org=[]
-        norp=[]
-        language=[]
+        # Loc=[]
+        # org=[]
+        # norp=[]
+        # language=[]
         summary=[]
         for g in data['cleaned']:
             doc = nlp(g)
