@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'flaskhrAPI'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_75CA2903C1CB46689EFBD02A1FC0FF44 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D077B2AC13CC4D64B6486D9068799233 }}
